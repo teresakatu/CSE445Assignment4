@@ -135,3 +135,16 @@
             <Zip>85283</Zip>
         </Address>
     </Hotel>
+
+    <!-- Hotel 11 -->
+    <Hotel Rating="4.2">
+        <Name>Aloft Phoenix Airport</Name>
+        <Phone>480-693-9300</Phone>
+        <Phone>877-462-5638</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>4450</Number>
+            <Street>E Washington St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
