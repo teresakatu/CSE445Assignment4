@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/Hotels.xsd">
+    
+    <!-- Hotel 1 -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E.7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 2 -->
+    <Hotel Rating="4.7">
+        <Name>Sheraton Grand Phoenix</Name>
+        <Phone>602-262-2500</Phone>
+        <Phone>602-225-0100</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 3 -->
+    <Hotel Rating="4.6">
+        <Name>Hyatt Regency Scottsdale</Name>
+        <Phone>480-444-1234</Phone>
+        <Phone>480-483-5550</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 4 -->
+    <Hotel Rating="4.5">
+        <Name>Marriott Scottsdale</Name>
+        <Phone>480-945-1550</Phone>
+        <Phone>480-429-7785</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7401</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 5 -->
+    <Hotel Rating="4.2">
+        <Name>Hilton Phoenix Airport</Name>
+        <Phone>480-894-1600</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2435</Number>
+            <Street>S 47th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 6 -->
+    <Hotel Rating="4.2">
+        <Name>Hampton Inn Tempe</Name>
+        <Phone>480-941-3441</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>1429</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 7 -->
+    <Hotel Rating="4.1">
+        <Name>Embassy Suites Phoenix</Name>
+        <Phone>480-897-7444</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2630</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 8 -->
+    <Hotel>
+        <Name>Courtyard Mesa</Name>
+        <Phone>480-461-3000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>1221</Number>
+            <Street>S Westwood</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85210</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 9 -->
+    <Hotel Rating="4.4">
+        <Name>Renaissance Phoenix Downtown</Name>
+        <Phone>602-333-0000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>50</Number>
+            <Street>E Adams St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 10 -->
+    <Hotel Rating="3.7">
+        <Name>Holiday Inn Express Tempe</Name>
+        <Phone>480-784-2233</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>1520</Number>
+            <Street>W Baseline Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85283</Zip>
+        </Address>
+    </Hotel>
