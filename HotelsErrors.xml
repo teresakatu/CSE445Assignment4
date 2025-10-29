@@ -152,7 +152,7 @@
     </Hotel>
     
     <!-- Hotel 11: CORRECT -->
-    <Hotel>
+    <Hotel Rating="4.2">
         <Name>Aloft Phoenix Airport</Name>
         <Phone>480-693-9300</Phone>
         <Phone>877-462-5638</Phone>
@@ -164,5 +164,4 @@
             <Zip>85034</Zip>
         </Address>
     </Hotel>
-    
 </Hotels>
