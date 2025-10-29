@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-    <!-- ERROR (1): The root element name is Hotel, instead of Hotels -->
-    <!-- Examples: Hotel 1, 2: -->
+<!-- ERROR (1): The root element name is Hotel, instead of Hotels -->
+<Hotel>
     
     <!-- Hotel 1 -->
     <Hotel Rating="4.2">
@@ -18,10 +17,52 @@
     </Hotel>
     
     <!-- Hotel 2 -->
+    <Hotel Rating="4.7">
+        <Name>Sheraton Grand Phoenix</Name>
+        <Phone>602-262-2500</Phone>
+        <Phone>602-225-0100</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- ERROR (2): A required attribute is missing (NearestAirport) -->
+    <!-- Hotel 3 -->
+    <Hotel Rating="4.6">
+        <Name>Hyatt Regency Scottsdale</Name>
+        <Phone>480-444-1234</Phone>
+        <Phone>480-483-5550</Phone>
+        <Address>
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 4 -->
     <Hotel Rating="4.5">
+        <Name>Marriott Scottsdale</Name>
+        <Phone>480-945-1550</Phone>
+        <Phone>480-429-7785</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7401</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- ERROR (3): A Phone element is missing -->
+    <!-- Hotel 5 -->
+    <Hotel Rating="4.2">
         <Name>Hilton Phoenix Airport</Name>
-        <Phone>602-997-9900</Phone>
-        <Phone>800-445-8667</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>2435</Number>
             <Street>S 47th St</Street>
@@ -31,43 +72,10 @@
         </Address>
     </Hotel>
     
-    <!-- ERROR (2): A required attribute is missing; -->
-    <!-- Examples: Hotel 3, 4: -->
-    
-    <!-- Hotel 3 -->
-    <Hotel>
-        <Name>Marriott Scottsdale</Name>
-        <Phone>480-945-5500</Phone>
-        <Address>
-            <Number>7401</Number>
-            <Street>N Scottsdale Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85253</Zip>
-        </Address>
-    </Hotel>
-    
-    <!-- Hotel 4 -->
-    <Hotel Rating="4.7">
-        <Name>Sheraton Grand Phoenix</Name>
-        <Phone>602-262-2500</Phone>
-        <Phone>888-627-7108</Phone>
-        <Phone>602-262-2501</Phone>
-        <Address>
-            <Number>340</Number>
-            <Street>N 3rd St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85004</Zip>
-        </Address>
-    </Hotel>
-    
-    <!-- ERROR (3): A phone element is missing on one of the hotels. -->
-    <!-- Examples: Hotel 5, 6: -->
-    
-    <!-- Hotel 5 -->
-    <Hotel>
+    <!-- Hotel 6 -->
+    <Hotel Rating="4.2">
         <Name>Hampton Inn Tempe</Name>
+        <Phone>480-941-3441</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>1429</Number>
             <Street>N Scottsdale Rd</Street>
@@ -77,57 +85,38 @@
         </Address>
     </Hotel>
     
-    <!-- Hotel 6 -->
-    <Hotel Rating="4.0">
+    <!-- ERROR (4): An Address element has no closing tag -->
+    <!-- Hotel 7 -->
+    <Hotel Rating="4.1">
         <Name>Embassy Suites Phoenix</Name>
+        <Phone>480-897-7444</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>2630</Number>
             <Street>E Camelback Rd</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85016</Zip>
-        </Address>
-    </Hotel>
-    
-    <!-- ERROR (4): An address elect has no closing tag. -->
-    <!-- Examples: Hotel 7, 8: -->
-    
-    <!-- Hotel 7 -->
-    <Hotel Rating="4.3">
-        <Name>Hyatt Regency Scottsdale</Name>
-        <Phone>480-444-1234</Phone>
-        <Address NearestAirport="Sky Harbor">
-            <Number>7500</Number>
-            <Street>E Doubletree Ranch Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85258</Zip>
-        <!-- Missing </Address> closing tag -->
     </Hotel>
     
     <!-- Hotel 8 -->
     <Hotel>
         <Name>Courtyard Mesa</Name>
         <Phone>480-461-3000</Phone>
-        <Phone>888-236-2427</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>1221</Number>
             <Street>S Westwood</Street>
             <City>Mesa</City>
             <State>AZ</State>
             <Zip>85210</Zip>
-        <!-- Missing </Address> closing tag -->
+        </Address>
     </Hotel>
     
-    <!-- ERROR (5): Two names are provided for one of the hotels. -->
-    <!-- Examples: Hotel 9, 10: -->
-    
+    <!-- ERROR (5): Two names are provided for one of the hotels -->
     <!-- Hotel 9 -->
-    <Hotel Rating="4.6">
+    <Hotel Rating="4.4">
         <Name>Renaissance Phoenix Downtown</Name>
         <Name>Renaissance Hotel Phoenix</Name>
         <Phone>602-333-0000</Phone>
-        <Phone>800-468-3571</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>50</Number>
             <Street>E Adams St</Street>
@@ -138,10 +127,9 @@
     </Hotel>
     
     <!-- Hotel 10 -->
-    <Hotel Rating="3.9">
+    <Hotel Rating="3.7">
         <Name>Holiday Inn Express Tempe</Name>
-        <Name>Holiday Inn Tempe</Name>
-        <Phone>480-820-7500</Phone>
+        <Phone>480-784-2233</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>1520</Number>
             <Street>W Baseline Rd</Street>
@@ -150,8 +138,8 @@
             <Zip>85283</Zip>
         </Address>
     </Hotel>
-    
-    <!-- Hotel 11: CORRECT -->
+
+    <!-- Hotel 11 -->
     <Hotel Rating="4.2">
         <Name>Aloft Phoenix Airport</Name>
         <Phone>480-693-9300</Phone>
@@ -164,4 +152,4 @@
             <Zip>85034</Zip>
         </Address>
     </Hotel>
-</Hotels>
+</Hotel>
