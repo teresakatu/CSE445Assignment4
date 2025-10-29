@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/teresakatu/CSE445Assignment4/refs/heads/main/Hotels.xsd">
     
     <!-- Hotel 1 -->
     <Hotel Rating="4.2">
@@ -148,3 +148,5 @@
             <State>AZ</State>
             <Zip>85034</Zip>
         </Address>
+    </Hotel>
+</Hotels>
