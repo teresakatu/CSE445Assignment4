@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/teresakatu/CSE445Assignment4/refs/heads/main/Hotels.xsd">
     
     <!-- ERROR (1): The root element name is Hotel, instead of Hotels -->
@@ -167,4 +167,4 @@
         </Address>
     </Hotel>
     
-</Hotel>
+</Hotels>
